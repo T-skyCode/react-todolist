@@ -13,7 +13,6 @@ const TodoFrom = ({ addTodo }) => {
     }
 
     addTodo(value);
-    alert(value);
     setValue("");
   };
 
