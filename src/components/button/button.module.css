@@ -1,0 +1,30 @@
+.colorRed {
+  color: red;
+}
+
+.colorBlack {
+  color: black;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.headerBtn {
+  width: 24%;
+  font-size: 1.8rem;
+  font-family: "Bungee", "sans-serif";
+  cursor: pointer;
+  padding: 16px;
+  background: unset;
+  border: unset;
+  outline: unset;
+}
+
+.headerBtn:hover {
+  color: #4d2a24;
+}

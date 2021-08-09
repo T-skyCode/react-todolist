@@ -11,22 +11,6 @@
   color: var(--main-red-color);
 } */
 
-.color-red {
-  color: red;
-}
-
-.color-black {
-  color: black;
-}
-
-.align-left {
-  text-align: left;
-}
-
-.align-right {
-  text-align: right;
-}
-
 html {
   font-size: 10px;
   font-family: "Homemade Apple", cursive;
@@ -78,21 +62,6 @@ html {
   font-size: 3.6rem;
   font-family: "Homemade Apple", "sans-serif";
   text-transform: lowercase;
-}
-
-.header-btn {
-  width: 24%;
-  font-size: 1.8rem;
-  font-family: "Bungee", "sans-serif";
-  cursor: pointer;
-  padding: 16px;
-  background: unset;
-  border: unset;
-  outline: unset;
-}
-
-.header-btn:hover {
-  color: #4d2a24;
 }
 
 .add {
