@@ -1,10 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import style from "./paper.module.css";
+
 const Paper = ({ children }) => {
   return (
-    <div className="container">
-      <div className="frame">{children}</div>
+    <div className={style.container}>
+      <div className={style.frame}>{children}</div>
     </div>
   );
 };
