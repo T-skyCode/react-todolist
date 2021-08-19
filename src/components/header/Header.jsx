@@ -1,4 +1,3 @@
-// import React from "react";
 /** @jsxImportSource @emotion/react */
 
 import { useTheme, jsx } from "@emotion/react";
@@ -29,7 +28,7 @@ const Header = ({ showAddToggle, showAdd, clearTodos }) => {
           <h1 css={styles.headerTitle(theme)}>Todo Lists</h1>
         </Item>
 
-        <Item flex={1}>
+        <Item flex={1} align="right">
           <Button text="Clear" onClick={clearTodos} color="red" align="right" />
         </Item>
       </Container>

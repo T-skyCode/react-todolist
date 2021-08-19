@@ -11,7 +11,8 @@ export const container = ({ theme }) => css`
 
 export const frame = ({ theme }) => css`
   height: 100%;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
+  justify-content: space-between; */
   border: 2px solid ${theme.color.primary.black};
 `;
