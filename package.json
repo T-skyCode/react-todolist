@@ -9,6 +9,7 @@
   "main": "src/index.js",
   "dependencies": {
     "@emotion/react": "11.4.1",
+    "@emotion/styled": "11.3.0",
     "classnames": "2.3.1",
     "emotion-theming": "11.0.0",
     "prop-types": "15.7.2",

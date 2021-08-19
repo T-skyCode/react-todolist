@@ -4,7 +4,7 @@ import { useTheme, jsx } from "@emotion/react";
 
 import PropTypes from "prop-types";
 
-import Button from "../button/Button";
+import Button from "../button/buttonClass";
 import Container from "../../layout/Container";
 import Item from "../../layout/Item";
 
