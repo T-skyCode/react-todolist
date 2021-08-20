@@ -12,7 +12,7 @@ const StyledTodo = styled.div`
   margin: 16px 0 0;
   font-family: "Homemade apple", "sans-serif";
   font-size: 24px;
-  border-bottom: 1px solid ${(props) => props.theme.color.primary.black};
+  border-bottom: 1px solid ${(props) => props.theme.color.primary.red};
   padding-bottom: 50px;
 `;
 

@@ -2,8 +2,8 @@ import React, { useState } from "react";
 
 import Paper from "../components/paper/PaperClass";
 import Header from "../components/header/HeaderClass";
-import TodoFrom from "../components/todoform/TodosForm";
-import Todos from "../components/todos/Todos";
+import TodoFrom from "../components/todoform/TodoFormClass";
+import Todos from "../components/todos/TodosClass";
 
 import Container from "../layout/Container";
 
@@ -31,7 +31,6 @@ const TodoList = () => {
   const clearTodos = () => !showAdd && setTodos([]);
   const showAddToggle = () => setShowAdd(!showAdd);
 
-  console.log("Todos", todos);
   return (
     <Paper>
       <Container
