@@ -51,7 +51,7 @@ class Todos extends React.Component {
                 <StyledAddButtonPlaceholderText theme={theme}>
                   Add
                 </StyledAddButtonPlaceholderText>,
-                "Button on the top of left corner"
+                " Button on the top of left corner"
               ]}
             </StyledTodoPlaceholderText>
           )}
