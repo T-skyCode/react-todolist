@@ -13,3 +13,8 @@ export const addButtonPlaceholderText = ({ theme }) => css`
   font-size: 24px;
   color: ${theme.color.primary.black};
 `;
+
+export const seeAboutPagePlaceholdertext = () => css`
+  font-family: "Bungee", sans-serif;
+  font-size: 18px;
+`;
